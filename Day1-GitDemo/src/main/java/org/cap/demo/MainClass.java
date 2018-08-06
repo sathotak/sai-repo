@@ -10,6 +10,8 @@ greet();
 
 	private static void greet() {
 		System.out.println("Welcome");
+		for(int i=0;i<=5;i++)
+			System.out.print("*");
 	}
 
 }
