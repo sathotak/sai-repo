@@ -4,8 +4,10 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		SalesClass salesClass=new SalesClass();
 System.out.println("Hello world");
 greet();
+salesClass.show();
 	}
 
 	private static void greet() {
