@@ -7,16 +7,17 @@ public class MainClass {
 		SalesClass salesClass=new SalesClass();
 		CustomerClass customerClass=new CustomerClass();
 		ProducerClass producerClass=new ProducerClass();
-System.out.println("Hello world");
-greet();
-salesClass.show();
-salesClass.show();
-customerClass.show();
-producerClass.show();
-for(int i=0;i<10;i++)
-{
-	System.out.println(i);
-}
+		System.out.println("Hello world");
+		greet();
+		salesClass.show();
+		salesClass.show();
+		customerClass.show();
+		producerClass.show();
+		int i=0;
+		while(i<10)
+		{
+			System.out.println(i);
+		}
 	}
 
 	private static void greet() {
