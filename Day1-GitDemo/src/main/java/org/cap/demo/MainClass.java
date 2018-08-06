@@ -13,6 +13,10 @@ salesClass.show();
 salesClass.show();
 customerClass.show();
 producerClass.show();
+for(int i=0;i<10;i++)
+{
+	System.out.println(i);
+}
 	}
 
 	private static void greet() {
