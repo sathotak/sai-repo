@@ -6,11 +6,13 @@ public class MainClass {
 		// TODO Auto-generated method stub
 		SalesClass salesClass=new SalesClass();
 		CustomerClass customerClass=new CustomerClass();
+		ProducerClass producerClass=new ProducerClass();
 System.out.println("Hello world");
 greet();
 salesClass.show();
 salesClass.show();
 customerClass.show();
+producerClass.show();
 	}
 
 	private static void greet() {
