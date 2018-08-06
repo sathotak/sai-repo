@@ -21,6 +21,7 @@ for(int i=0;i<10;i++)
 
 	private static void greet() {
 		System.out.println("Welcome");
+		System.out.println("This is my first project");
 		for(int i=0;i<=5;i++)
 			System.out.print("*");
 	}
