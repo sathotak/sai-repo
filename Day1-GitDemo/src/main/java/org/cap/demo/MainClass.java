@@ -8,6 +8,7 @@ public class MainClass {
 System.out.println("Hello world");
 greet();
 salesClass.show();
+salesClass.show();
 	}
 
 	private static void greet() {
