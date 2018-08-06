@@ -5,10 +5,12 @@ public class MainClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SalesClass salesClass=new SalesClass();
+		CustomerClass customerClass=new CustomerClass();
 System.out.println("Hello world");
 greet();
 salesClass.show();
 salesClass.show();
+customerClass.show();
 	}
 
 	private static void greet() {
